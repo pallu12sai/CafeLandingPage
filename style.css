@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width:100%;
+    min-height: 100vh;
+}
+.top{
+    width:111%;
+    min-height: 140vh;
+    background-image: url(https://images5.alphacoders.com/905/905439.jpg); 
+    background-size: 90%;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.551);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    padding: 0 9vh;
+    color: white; 
+    top: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+    height:200px;
+    width:250px;
+    margin-top: 11%;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width:100%;
+    min-height: 40vh;
+}
+.b1{
+    width:30%;
+    min-height: inherit;
+    background-image: url("https://wallpapers.com/images/high/brown-pastel-aesthetic-1g4po6dk7n2wgjk3.webp");
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align:center;
+    padding:30px
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+.b2{
+    width:30%;
+    min-height:inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width:100%;
+    min-height: 20vh;
+    background-image: url("https://wallpapers.com/images/high/brown-pastel-aesthetic-1g4po6dk7n2wgjk3.webp");
+    background-size: cover;
+    background-position: center;     
+}
+.b2 .up h1{
+       text-align: center;
+       padding: 30px;
+}
+.b2 .up p{
+       color: white;
+       text-align: center;
+       padding: 15px;
+}
+.b2 .down{
+       width:100%;
+       min-height: 25vh;
+       background-image: url("https://c8.alamy.com/comp/MKBY4B/single-continuous-line-art-coffee-cup-tea-cup-morning-cafe-hot-drink-silhouette-concept-design-one-sketch-outline-drawing-vector-illustration-MKBY4B.jpg");
+       background-size: cover;
+       background-position: center;
+}
+.b2 .down .overlay{
+       position: relative;
+       width:100%;
+       min-height: 20vh;
+       background-color: rgba(255, 255, 255, 0.438);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url("https://thumbs.dreamstime.com/b/minimal-style-cortado-coffee-table-top-ai-generated-illustration-288897178.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+       justify-content: left;
+       position: relative;
+       margin-left: 10%;
+       margin-top: 5%;
+       width: 50%;
+       height:100%;
+       padding: 4vh 3vh;
+}
+.b3 .overlay{
+       padding: 2vh;
+}
